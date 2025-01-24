@@ -1,0 +1,32 @@
+
+.search-icon {
+  stroke-width:1;
+}
+
+.container1{
+    background-color: rgba(255, 220, 205, 0.8);
+    max-width: 1280px;
+  } 
+
+.container2 {  
+  height:500px;
+  max-width: 1280px;
+}
+
+.jumbotron {
+
+  
+}
+
+.kotak{
+  background-color:  rgba(251, 212, 212, 1);
+}
+
+.InformasiHi {
+  height: 325px;
+  width: 500px;
+}
+
+.carousel {
+  
+}
