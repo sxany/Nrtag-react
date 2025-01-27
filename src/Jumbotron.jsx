@@ -20,9 +20,6 @@ const Jumbotron = () => {
        
       </div>
     </div>
-   
-    
-    
   );
 };
 

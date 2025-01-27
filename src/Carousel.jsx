@@ -1,15 +1,69 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './assets/css/local.css';
 import './assets/css/input.css';
 
 const Carousel = () => {
-    return (
-         /* Carousel */        
-         <div>
-         <p className='relative left-10 font-title'>Peran Game Dalam Membuat Lingkungan Nyaman</p>
-         <p1 className='relative left-10 font-title text-[10px] text-[#706969]' >12 jam lalu </p1>
-       </div>
-    );
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 5;
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  // Automatically change slides (AUTO-SWIPE FEATURE)
+  useEffect(() => {
+    const slideInterval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides); // Go to the next slide, loop back to 0
+    }, 3000); // Change slide every 3 seconds
+
+    return () => clearInterval(slideInterval); // Cleanup interval on unmount
+  }, [totalSlides]);
+
+  return (
+    <div className="grid col-span-1 carousel mt-50">
+      <div id="default-carousel" className="relative w-full" data-carousel="slide">
+        <div className="relative">
+          {/* Carousel items */}
+          {['Unfinished.jpg', 'carousel 2.jpg', 'carousel 3.jpg', 'carousel 4.jpg', 'carousel 5.jpg'].map(
+            (image, index) => (
+              <div
+                key={index}
+                className={`duration-700 ease-in-out ${
+                  currentSlide === index ? '' : 'hidden'
+                }`}
+                data-carousel-item
+              >
+                <img
+                  src={`./images/${image}`}
+                  className="InformasiHi relative left-10 w-full"
+                  alt={`Slide ${index + 1}`}
+                />
+              </div>
+            )
+          )}
+        </div>
+
+        {/* Carousel Buttons */}
+        <div className="absolute z-30 bottom-5 space-x-3 ">
+          {Array.from({ length: totalSlides }).map((_, index) => (
+            <button
+              key={index}
+              type="button"
+              className={`w-3 h-3 rounded-full ${
+                currentSlide === index ? 'bg-black' : 'bg-gray-400'
+              }`}
+              aria-current={currentSlide === index ? 'true' : 'false'}
+              aria-label={`Slide ${index + 1}`}
+              onClick={() => goToSlide(index)}
+            ></button>
+          ))}
+        </div>
+      </div>
+
+      <p className="relative left-10 font-title">Peran Game Dalam Membuat Lingkungan Nyaman</p>
+      <p className="relative left-10 font-title text-[10px] text-[#706969]">12 jam lalu</p>
+    </div>
+  );
 };
 
-export default Carousel ;
+export default Carousel;
