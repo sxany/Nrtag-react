@@ -20,7 +20,7 @@ const Carousel = () => {
   }, [totalSlides]);
 
   return (
-    <div className="grid col-span-1 carousel mt-50">
+    <div className=" carousel mt-50">
       <div id="default-carousel" className="relative w-full" data-carousel="slide">
         <div className="relative">
           {/* Carousel items */}
@@ -44,7 +44,7 @@ const Carousel = () => {
         </div>
 
         {/* Carousel Buttons */}
-        <div className="absolute z-30 bottom-5 space-x-3 ">
+        <div className=" absolute z-30 bottom-1 space-x-3 w-full flex justify-center">
           {Array.from({ length: totalSlides }).map((_, index) => (
             <button
               key={index}
