@@ -2,6 +2,7 @@ import React from 'react';
 import './assets/css/local.css';
 import './assets/css/input.css';
 import Carousel from './Carousel';
+import Populer from './Populer';
 
 const Jumbotron = () => {
   
@@ -14,11 +15,13 @@ const Jumbotron = () => {
       <div className='relative z-10'>
         <div className='flex space-x-2'>
           <div className="kotak w-[34px] h-[13px] mt-4"></div>
-          <p className=' text-black mt-2.5 opacity-100 grid  ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi hari ini</p>
+          <p className=' text-black mt-1.5 opacity-100 grid  ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi hari ini</p>
         </div>
-        <Carousel/>
-        
+          <Carousel/>
       </div>
+        <div>
+          <Populer/>
+        </div>       
     </div>
   );
 };
