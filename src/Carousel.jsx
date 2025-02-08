@@ -44,7 +44,7 @@ const Carousel = () => {
         </div>
 
         {/* Carousel Buttons */}
-        <div className=" absolute z-30 bottom-1 space-x-3 w-full flex justify-center">
+        <div className=" absolute  z-30 bottom-1 space-x-3 w-full flex justify-center ml-10">
           {Array.from({ length: totalSlides }).map((_, index) => (
             <button
               key={index}
