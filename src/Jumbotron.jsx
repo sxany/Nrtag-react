@@ -3,6 +3,7 @@ import './assets/css/local.css';
 import './assets/css/input.css';
 import Carousel from './Carousel';
 import Populer from './Populer';
+import Gameplay from './Gameplay';
 
 const Jumbotron = () => {
   
@@ -23,7 +24,7 @@ const Jumbotron = () => {
                 <Populer/>
                   </div>      
                     <div>
-                      
+                      <Gameplay/>
                         </div> 
     </div>
   );
