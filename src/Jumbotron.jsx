@@ -18,10 +18,13 @@ const Jumbotron = () => {
           <p className=' text-black mt-1.5 opacity-100 grid  ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi hari ini</p>
         </div>
           <Carousel/>
-      </div>
-        <div>
-          <Populer/>
-        </div>       
+            </div>
+              <div>
+                <Populer/>
+                  </div>      
+                    <div>
+                      
+                        </div> 
     </div>
   );
 };
