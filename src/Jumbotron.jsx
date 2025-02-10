@@ -10,8 +10,9 @@ const Jumbotron = () => {
   return (
    //jumbotron
     <div className='container container2 jumbotron mx-auto relative grid grid-cols-3'>
-      <div className='absolute inset-0 bg-cover bg-center opacity-40 z-0 blur-[1.6px] ' style={{ backgroundImage: 'url(./images/jumbotron.webp)' }}>
-      </div>
+      <div className="bg-layer absolute top-0 left-0 w-full h-full bg-center opacity-40 z-0 blur-[1.6px]" 
+         style={{ backgroundImage: 'url(./images/jumbotron.webp)' }}>
+    </div>
     {/* kotak dan informasi hari ini*/}
       <div className='relative z-10'>
         <div className='flex space-x-2'>

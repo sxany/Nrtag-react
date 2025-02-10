@@ -14,8 +14,12 @@
 }
 
 .jumbotron {
+z-index: 0;
 
-  
+}
+
+.bg-layer {
+  pointer-events: none;
 }
 
 .kotak{
