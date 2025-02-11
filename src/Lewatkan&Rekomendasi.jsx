@@ -6,7 +6,7 @@ const Lewatkan = () => {
     return (
         <div>
             {/*kotak*/}
-             <div className='relative z-10 flex space-x-2 mt-14'>
+             <div className='relative z-10 flex space-x-2 mt-[60px]'>
                 <div className='kotak w-[34px] h-[13px] mt-4 '></div>
                     <p className=' text-black mt-1.5 opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi Anda Lewatkan</p>
                     </div>
@@ -28,6 +28,11 @@ const Lewatkan = () => {
                         <p className='ml-2  text-black opacity-100 max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
                             <p className='ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                 </div>
+            </div>
+            <div className='relative flex mt-36'>
+                {/**Kotak*/}
+                <div className='kotak w-[34px] h-[13px]  '></div>
+                <p className='text-black mt-[-10px] ml-1.5 opacity-100 grid' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Rekomendasi</p>
             </div>
         </div>
     );
