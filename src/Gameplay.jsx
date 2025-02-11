@@ -14,9 +14,7 @@ const Gameplay = () => {
                         </div>
                         <div>
                         <iframe className='fixed ml-24 rounded-md' width="300" height="200" src="https://www.youtube.com/embed/?listType=playlist&list=RDdJf4wCdLU18&autoplay=1&mute=1"  title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullScreen></iframe>
-                        </div>
-                                                       
-                                    
+                        </div>                                    
         </div>
     );
 };
