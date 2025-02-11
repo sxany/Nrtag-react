@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
 import './assets/css/input.css'
+import Mainpage from './mainpage/Mainpage';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
      
       <Navbar />
       <Jumbotron/>
-             
+      <Mainpage/>       
     </div>
   );
 };
