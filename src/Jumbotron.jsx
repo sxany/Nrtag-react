@@ -3,7 +3,8 @@ import './assets/css/local.css';
 import './assets/css/input.css';
 import Carousel from './Carousel';
 import Populer from './Populer';
-import Gameplay from './Musik&Lewatkan';
+import Gameplay from './Musik';
+import Lewatkan from './Lewatkan';
 
 const Jumbotron = () => {
   
@@ -27,6 +28,9 @@ const Jumbotron = () => {
                     <div>
                       <Gameplay/>
                         </div> 
+                          <div>
+                            <Lewatkan/>
+                              </div>
     </div>
   );
 };

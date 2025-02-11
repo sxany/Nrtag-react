@@ -1,4 +1,7 @@
-
+body{
+  height: 1800px;
+  
+}
 .search-icon {
   stroke-width:1;
 }

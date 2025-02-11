@@ -1,14 +1,17 @@
 // src/App.jsx
 import React from 'react';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
 import './assets/css/input.css'
 
 const App = () => {
   return (
+    
     <div>
+     
       <Navbar />
-      <Jumbotron/>         
+      <Jumbotron/>
+             
     </div>
   );
 };
