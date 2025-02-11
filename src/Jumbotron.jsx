@@ -3,7 +3,7 @@ import './assets/css/local.css';
 import './assets/css/input.css';
 import Carousel from './Carousel';
 import Populer from './Populer';
-import Gameplay from './Gameplay';
+import Gameplay from './Musik';
 
 const Jumbotron = () => {
   
