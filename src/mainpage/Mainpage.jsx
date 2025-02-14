@@ -5,10 +5,7 @@ import Rekomendasi from './Rekomendasi';
 
 const Mainpage = () => {
     return (
-      
-                <Rekomendasi/>
-                
-       
+                <Rekomendasi/>      
     );
 };
 
