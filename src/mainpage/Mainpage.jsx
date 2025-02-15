@@ -2,10 +2,14 @@ import React from 'react';
 import '../assets/css/local.css';
 import '../assets/css/input.css';
 import Rekomendasi from './Rekomendasi';
+import Footer from './Footer';
 
 const Mainpage = () => {
     return (
-                <Rekomendasi/>      
+        <div>
+                <Rekomendasi/>
+                <Footer/> 
+            </div>     
     );
 };
 

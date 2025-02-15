@@ -4,7 +4,7 @@ import '../assets/css/input.css';
 
 const Rekomendasi = () => {
     return (
-        <div className='container2 mx-auto'>
+        <div className='mx-auto' style={{maxWidth:'1280px'}}>
             <div className='relative flex mt-36'>
                 {/** Kotak */}
                 <div className='kotak w-[34px] h-[13px]'></div>

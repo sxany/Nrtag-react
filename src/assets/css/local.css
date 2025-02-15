@@ -1,5 +1,5 @@
 body{
-  height: 1800px;
+  height: px;
   
 }
 .search-icon {
@@ -15,6 +15,7 @@ body{
   height:500px;
   max-width: 1280px;
 }
+
 
 .jumbotron {
 z-index: 0;
