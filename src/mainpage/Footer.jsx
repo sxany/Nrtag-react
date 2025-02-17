@@ -4,11 +4,12 @@ import '../assets/css/input.css';
 
 const Footer = () => {
     return (
+        //**Text */
         <footer 
             className="mx-auto justify-items-center mt-5" 
             style={{ 
-                backgroundColor: '#2B2B2B', 
-                width: '1280px', 
+                backgroundColor: 'rgba(120, 90, 80, 1)', 
+                maxWidth: '',
                 height: 'auto' 
             }}
         >
@@ -38,6 +39,7 @@ const Footer = () => {
             >
                 We are committed to providing users with the latest gaming news, delivering up-to-date trends, releases, and industry insights.
             </p>
+            {/*icon */}
         </footer>
     );
 };
