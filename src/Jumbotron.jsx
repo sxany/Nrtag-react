@@ -28,9 +28,7 @@ const Jumbotron = () => {
                     <div>
                       <Gameplay/>
                         </div> 
-                          <div>
-                            <Lewatkan/>
-                              </div>
+                          
     </div>
   );
 };
