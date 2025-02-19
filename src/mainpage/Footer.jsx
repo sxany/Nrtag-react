@@ -42,14 +42,24 @@ const Footer = () => {
                 We are committed to providing users with the latest gaming news, delivering up-to-date trends, releases, and industry insights.
             </p>
             {/*icon */}
-            <div className='flex space-x-2 mt-2'>
-                <FaFacebook size={32} color='black'/>
-                <FaTiktok size={32} color='black'/>
-                <FaGithub size={32} color='black'/>
-                <FaInstagram size={32} color='black'/>
-               
-               
-            </div>
+            <div className="flex space-x-2 mt-2">
+    {[
+        { Icon: FaFacebook, link: "https://www.facebook.com" },
+        { Icon: FaTiktok, link: "https://www.tiktok.com" },
+        { Icon: FaGithub, link: "https://github.com" },
+        { Icon: FaInstagram, link: "https://www.instagram.com" }
+    ].map(({ Icon, link }, index) => (
+        <a 
+            key={index} 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            <Icon size={32} color="black" />
+        </a>
+    ))}
+</div>
+
         </footer>
     );
 };
