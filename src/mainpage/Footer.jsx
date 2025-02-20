@@ -42,7 +42,7 @@ const Footer = () => {
                 We are committed to providing users with the latest gaming news, delivering up-to-date trends, releases, and industry insights.
             </p>
             {/*icon */}
-            <div className="flex space-x-2 mt-2">
+            <div className="flex space-x-3 mt-2">
     {[
         { Icon: FaFacebook, link: "https://www.facebook.com" },
         { Icon: FaTiktok, link: "https://www.tiktok.com" },
