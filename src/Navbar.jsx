@@ -2,7 +2,7 @@
 import React from 'react';
 import './assets/css/input.css'
 import './assets/css/local.css'
-import { FaSearch } from 'react-icons/fa';
+import { FaSearch, FaUser } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -30,7 +30,8 @@ const Navbar = () => {
             </div>       
           </form>        
         </div>
-        <img className='opacity-100 hover:opacity-75 transition duration-200 sm:mx-0 md:mr-6 lg:mr-16 pb-4' src='./images/8.png'></img>
+        
+        <FaUser size={90} className='opacity-100 hover:opacity-75 transition duration-200 sm:mx-0 md:mr-6 lg:mr-16 pb-4'></FaUser>
       </div>     
     </nav>
   );
