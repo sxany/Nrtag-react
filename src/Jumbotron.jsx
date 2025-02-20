@@ -4,7 +4,7 @@ import './assets/css/input.css';
 import Carousel from './Carousel';
 import Populer from './Populer';
 import Gameplay from './Musik';
-import Lewatkan from './Lewatkan';
+
 
 const Jumbotron = () => {
   
