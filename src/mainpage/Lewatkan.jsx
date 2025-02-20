@@ -11,22 +11,22 @@ const Lewatkan = () => {
                     <p className=' text-black mt-1.5 opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi Anda Lewatkan</p>
                     </div>
             {/*kotak informasi dan text */}
-            <div className='ml-12 flex relative space-x-2'>
-                <img src='./images/mumbai.jpg'className='w-[180px] h-auto'></img>
-                    <div className='flex flex-col'>
-                        <p className='ml-2  text-black opacity-100 max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
-                            <p className='ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
+            <div className='ml-12 md:flex max-md:flex-col  relative space-x- '>
+                <img src='./images/mumbai.jpg'className='md:max-w-[180px] md:max-h-[180px]'></img>
+                    <div className='min-md:flex md:flex-col max-md:flex max-md:flex-col'>
+                        <p className='penjelasan md:ml-2  text-black opacity-100 md:max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                            <p className='md:ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                 </div>
-                <img src='./images/mumbai.jpg'className='w-[180px] h-auto'></img>
-                    <div className='flex flex-col'>
-                        <p className='ml-2  text-black opacity-100 max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
-                            <p className='ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
+                <img src='./images/mumbai.jpg'className='md:w-[180px] md:max-h-[180px]'></img>
+                    <div className='min-md:flex md:flex-col max-md:flex max-md:flex-col'>
+                        <p className='md:ml-2  text-black opacity-100 md:max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                            <p className='md:ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                 
                 </div>
-                <img src='./images/mumbai.jpg'className='w-[180px] h-auto'></img>
-                    <div className='flex flex-col'>
-                        <p className='ml-2  text-black opacity-100 max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
-                            <p className='ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
+                <img src='./images/mumbai.jpg'className='md:w-[180px] md:max-h-[180px]'></img>
+                    <div className='min-md:flex md:flex-col max-md:flex max-md:flex-col'>
+                        <p className='md:ml-2  text-black opacity-100 md:max-w-[200px]' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                            <p className='md:ml-2  text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                 </div>
             </div>
             
