@@ -39,7 +39,7 @@ const Footer = () => {
                     lineHeight: '1.8' 
                 }}
             >
-                We are committed to providing users with the latest gaming news, delivering up-to-date trends, releases, and industry insights.
+                We are committed to providing users with the latest gaming news delivering up-to-date trends, releases and industry insights.
             </p>
             {/*icon */}
             <div className="flex space-x-3 mt-2">
