@@ -11,6 +11,7 @@
 body{
   height: px;
   background-color: whitesmoke;
+  overflow-x: hidden;
   
 }
 .search-icon {
@@ -24,7 +25,7 @@ body{
 
 .container2 {  
   height:500px;
-  max-width: 1280px;
+  
 }
 
 
