@@ -11,7 +11,7 @@ const Populer = () => {
                     <p className=' text-black mt-1.5 opacity-100 grid' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi Terpopuler</p>
                         </div>
                         {/*Kotak Informasi dan text */}
-                            <div className='max-md:grid max-md:grid-cols-4 relative z-10 md:ml-24 max-md:space-x-2 max-md:ml-12 '>
+                            <div className='max-md:grid max-md:grid-cols-4 relative z-10 md:ml-24 max-md:space-x-2 max-md:ml-12 md:space-y-2'>
                             <div className='md:flex'>
                                     <img src='./images/Unfinished.jpg'className='w-[180px] max-h-[180px] '
                                     ></img>
