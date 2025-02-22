@@ -17,9 +17,9 @@ const Rekomendasi = () => {
             </div>
 
             {/** Poster dalam grid */}
-            <div className='md:grid md:grid-cols-6 md:gap-x-4'>
+            <div className='md:grid md:grid-cols-6 md:gap-x-4 max-md:space-y-2'>
                 {/** Poster 1 */}
-                <div className='ml-12 text-center'>
+                <div className='ml-12 text-center max-md:mt-2'>
                     <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="Black Myth Wukong" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
