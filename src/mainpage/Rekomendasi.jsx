@@ -26,7 +26,7 @@ const Rekomendasi = () => {
                     >
                         Black Myth Wukong
                     </p>
-                    <p1 className='md:hidden'
+                    <p1 className='max-md:hidden md:hidden'
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize: '16px' }}
                     >
                        Black Myth: Wukong is an upcoming action RPG developed by Game Science, inspired by the classic Chinese novel Journey to the West. Players control the Destined One, a warrior with abilities similar to Sun Wukong, battling mythical creatures and deities in a richly detailed world based on Chinese folklore.
