@@ -4,7 +4,7 @@ import '../assets/css/input.css';
 
 const Lewatkan = () => {
     return (
-        <div className='relative mx-auto max-md:mt-[540px]' style={{}}>
+        <div className='relative mx-auto max-md:mt-[720px]' style={{}}>
             {/*kotak*/}
              <div className='relative z-10 flex space-x-2'>
                 <div className='kotak w-[34px] h-[13px] mt-4 '></div>

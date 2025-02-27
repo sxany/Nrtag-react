@@ -20,9 +20,9 @@ const Carousel = () => {
   }, [totalSlides]);
 
   return (
-    <div className=" carousel mt-50">
+    <div className=" carousel ">
       <div id="default-carousel" className="relative w-full" data-carousel="slide">
-        <div className="relative">
+        <div className="relative ">
           {/* Carousel items */}
           {['Unfinished.jpg', 'carousel 2.jpg', 'carousel 3.jpg', 'carousel 4.jpg', 'carousel 5.jpg'].map(
             (image, index) => (
@@ -35,7 +35,7 @@ const Carousel = () => {
               >
                 <img
                   src={`./images/${image}`}
-                  className="InformasiHi relative left-10 w-full"
+                  className=" relative md:h-[300px] md:w-11/12 max-md:w-10/12 max-md:h-[310px] left-10 w-full"
                   alt={`Slide ${index + 1}`}
                 />
               </div>
@@ -44,7 +44,7 @@ const Carousel = () => {
         </div>
 
         {/* Carousel Buttons */}
-        <div className=" absolute  z-30 bottom-1 space-x-3 w-full flex justify-center ml-10">
+        <div className=" absolute  z-30 bottom-1  space-x-3 flex justify-center w-full md:ml-5 ">
           {Array.from({ length: totalSlides }).map((_, index) => (
             <button
               key={index}
