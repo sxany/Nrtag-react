@@ -4,7 +4,7 @@ import './assets/css/input.css';
 
 const Populer = () => {
     return (
-        <div className='max-md:hidde   '>
+        <div className='md:hidde  '>
             {/*kotak*/}
             <div className='relative z-10 flex space-x-2 max-md:-ml-7 md:ml-6'>
                 <div className='kotak w-[34px] h-[13px] mt-4 ml-7'></div>

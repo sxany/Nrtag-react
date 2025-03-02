@@ -2,10 +2,6 @@
   .texthidden {
     max-width: 500px;
    
-    
-    
-    
-
   }
 }
 
@@ -13,17 +9,21 @@
   .musikhidden {
     display: none;
    
-    
-    
-    
+  }
+}
 
+@media (min-width: 768px) and (max-width: 1024px){
+  .texthidden2 {
+    
+    
+   
   }
 }
 
 body{
   height: px;
   background-color: whitesmoke;
-  overflow-x: hidden;
+  
   
 }
 .search-icon {
