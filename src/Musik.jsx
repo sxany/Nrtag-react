@@ -4,9 +4,9 @@ import './assets/css/input.css';
 
 const Gameplay = () => {
     return (
-        <div className=''>
+        <div className='musikhidden'>
             {/*kotak*/}
-            <div className='relative z-10 md:flex max-md:flex space-x-2 md:ml-6 max-md:-ml-7'>
+            <div className=' relative z-10 md:flex max-md:flex space-x-2 md:ml-6 max-md:-ml-7'>
                 <div className='kotak w-[34px] h-[13px] mt-4 ml-7 '></div>
                     <p className=' text-black mt-1.5 opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Musik Hari Ini</p>
                     </div>
