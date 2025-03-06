@@ -25,7 +25,7 @@ const Jumbotron = () => {
               <div>
                 <Populer/>
                   </div>      
-                    <div>
+                    <div className='musi'>
                       <Gameplay/>
                         </div> 
                           
