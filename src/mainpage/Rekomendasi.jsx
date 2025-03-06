@@ -4,7 +4,7 @@ import '../assets/css/input.css';
 
 const Rekomendasi = () => {
     return (
-        <div className='mx-auto md:mt-4' style={{}}>
+        <div className='rekomendasi mx-auto md:mt-4' style={{}}>
             <div className='relative flex mt-2'>
                 {/** Kotak */}
                 <div className='kotak w-[34px] h-[13px]'></div>
