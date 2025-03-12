@@ -7,7 +7,7 @@
   }
 }
 
-//jumbotron//
+//**jumbotron**//
 @media (min-width: 768px) and (max-width: 900px){
   .jumbotron {
     display:grid;
