@@ -18,36 +18,36 @@ const Populer = () => {
                         {/*Kotak Informasi dan text */}
                             <div onClick={openInformasiPopuler} className='populer1 max-md:grid max-md:grid-flow-row relative z-10 md:ml-24 max-md:ml-12 md:space-y-2 max-md:space-y-2 cursor-pointer'>
                             <div className='md:flex max-md:flex'>
-                                    <img  src='./images/carousel 2.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px]  '
+                                    <img  src='/images/carousel 2.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px]  '
                                     ></img>
-                                    <div className=' space-y-1 '>
+                                    <div className=' space-y-1 opacity-100 transition-opacity hover:opacity-50'>
                                     <p className='texthidden  ml-2   text-black opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
                                     <p className='texthidden  ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                     </div>
 
                                 <div className='md:flex max-md:flex ml-0'>
-                                    <img src='./images/carousel 2.jpg'className='populer2 max-sm:w-[200px} max-h-[150px]'
+                                    <img src='/images/carousel 2.jpg'className='populer2 max-sm:w-[200px} max-h-[150px]'
                                     ></img>
-                                    <div className=' space-y-1'>
+                                    <div className=' space-y-1 opacity-100 transition-opacity hover:opacity-50'>
                                     <p className='texthidden  ml-2 text-black opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
                                     <p className='texthidden  ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                     </div>
 
                                     <div className='md:flex max-md:flex'>
-                                    <img src='./images/carousel 2.jpg'className='populer2 max-sm:w-[200px} max-h-[150px] '
+                                    <img src='/images/carousel 2.jpg'className='populer2 max-sm:w-[200px} max-h-[150px] '
                                     ></img>
-                                    <div className='space-y-1'>
-                                    <p className='texthidden  ml-2 text-black opacity-100  ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                                    <div className='space-y-1 opacity-100 transition-opacity hover:opacity-50'>
+                                    <p className='texthidden  ml-2 text-black   ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
                                     <p className='texthidden  ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                 </div>
 
                                 <div className='md:flex max-md:flex'>
-                                    <img src='./images/carousel 2.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px] '
+                                    <img src='/images/carousel 2.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px] '
                                     ></img>
-                                    <div className=' space-y-1'>
+                                    <div className=' space-y-1 opacity-100 transition-opacity hover:opacity-50 '>
                                     <p className='texthidden ml-2 text-black opacity-100 flex ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
                                     <p className='texthidden ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
