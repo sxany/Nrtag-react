@@ -34,7 +34,7 @@ const Carousel = () => {
                 data-carousel-item
               >
                 <img
-                  src={`./images/${image}`}
+                  src={`/images/${image}`}
                   className=" relative md:h-[300px] md:w-11/12 max-md:w-10/12 max-md:h-[310px] left-10 w-full"
                   alt={`Slide ${index + 1}`}
                 />
@@ -59,9 +59,10 @@ const Carousel = () => {
           ))}
         </div>
       </div>
-
+      <div className='opacity-100 transition-opacity hover:opacity-50 cursor-pointer'>
       <p className="relative left-10 font-title">Peran Game Dalam Membuat Lingkungan Nyaman</p>
       <p className="relative left-10 font-title text-[10px] text-[#706969]">12 jam lalu</p>
+      </div>
     </div>
   );
 };

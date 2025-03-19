@@ -6,19 +6,6 @@ import Home from './Home';
 import Informasipopuler from './page/InformasiPopuler';
 
 
-const RemoveTrailingSlash = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (location.pathname.endsWith('/') && location.pathname !== '/') {
-      navigate(location.pathname.slice(0, -1), { replace: true });
-    }
-  }, [location, navigate]);
-
-  return null;
-};
-
 
 const App = () => {
  
