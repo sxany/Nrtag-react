@@ -1,10 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route,} from 'react-router-dom';
 import React from 'react';
 import './assets/css/input.css';
 import Home from './Home';
 import Informasipopuler from './page/InformasiPopuler';
-
+import News from './content/News';
 
 
 const App = () => {
@@ -18,13 +17,14 @@ const App = () => {
         {/* Home Page */}
         <Route path="/home" element={<Home />} />
 
-        {/* Popular1 Page */}
+        {/* InformasiPopuler page*/}
         <Route path="/home/informasipopuler" element={<Informasipopuler />} />
 
         {/* Redirect "/" to "/home" */}
         <Route path="/" element={<Home />} />
 
-        
+        {/*News page*/}
+        <Route path='/home/news' element={<News />}/>
       </Routes>
    
   );

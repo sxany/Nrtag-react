@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 import React from 'react';
-import './assets/css/input.css'
-import './assets/css/local.css'
+import '../assets/css/input.css'
+import '../assets/css/local.css'
 import { FaSearch, FaUser } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
@@ -11,9 +11,9 @@ const Navbar = () => {
     navigate('/home');
   }
   return (
-    <nav  className=" nav  ">
+    <nav className=" nav  ">
       <div className=' container1 mx-auto flex items-center h-28 rounded-b-md'>        
-          < img onClick={openHome} className='cursor-pointer flex-grow-0 pb-4' src='/images/logo.png'></img>        
+          < img onClick={openHome}  className='cursor-pointer flex-grow-0 pb-4' src='/images/logo.png'></img>        
         <div className=" text-lg mx-auto w-full max-w-xl items-center ">    
           <form>
             <div className='relative w-full'>

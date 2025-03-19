@@ -2,16 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/local.css';
 import '../assets/css/input.css';
+import { useNavigate } from 'react-router-dom';
+import Navbarpopuler from './Navbarpopuler';
 
 const Informasipopuler = () => {
+    const navigate = useNavigate();
     const openHome =() =>{
-        window.open('/home');
+        navigate("/home");
+
     }
+    
     return (
-        <div onClick={openHome} className='cursor-pointer'>
+        <div >
+            <Navbarpopuler/>
+            <div onClick={openHome} className='cursor-pointer text-center'>
             <h1>Popular Page</h1>
-            <p>This is the popular page content.</p>
+            <p>Currently on Progress</p>
+            <p>Stay Tune!!!</p>
             <Link to='../'></Link>
+            </div>
         </div>
     );
 };
