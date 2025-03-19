@@ -1,10 +1,13 @@
 import React from 'react';
 import './assets/css/local.css';
 import './assets/css/input.css';
-import {Link, useNavigate} from 'react-router-dom'; 
+
 
 const Populer = () => {
-    const navigate = useNavigate();
+    const openInformasiPopuler =() => {
+        window.open('/home/InformasiPopuler');
+    
+    };
     return (
         <div className='md:hidde  '>
             {/*kotak*/}
@@ -13,7 +16,7 @@ const Populer = () => {
                     <p className=' text-black mt-1.5 opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize:'20px'}}>Informasi Terpopuler</p>
                         </div>
                         {/*Kotak Informasi dan text */}
-                            <div onClick={() => navigate('/popular1')} className='populer1 max-md:grid max-md:grid-flow-row relative z-10 md:ml-24 max-md:ml-12 md:space-y-2 max-md:space-y-2 cursor-pointer'>
+                            <div onClick={openInformasiPopuler} className='populer1 max-md:grid max-md:grid-flow-row relative z-10 md:ml-24 max-md:ml-12 md:space-y-2 max-md:space-y-2 cursor-pointer'>
                             <div className='md:flex max-md:flex'>
                                     <img  src='./images/carousel 2.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px]  '
                                     ></img>
