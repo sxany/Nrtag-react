@@ -26,22 +26,22 @@ const News = () => {
     return (
         <div>
             <Navbarnews />
-            <div className='text-center cursor-pointer' onClick={openHome}>
-                <h1>Latest News</h1>
-                <p>Stay tuned for the latest updates.</p>
-            </div>
-
-            {/* 🔹 Tampilkan berita jika ditemukan */}
+          
             {selectedNews ? (
-                <div className="news-content">
-                    <h2>{selectedNews.title}</h2>
-                    <img src={selectedNews.image} alt={selectedNews.title} style={{ width: "300px", height: "auto" }} />
-                    <p>{selectedNews.content}</p>
+                <div className="grid md:grid-cols-2 container md:max-w-[1200px] mx-auto">
+                    <p className='md:pt-4 md:max-w-[400px] text-justify mx-auto'>{selectedNews.content}</p>
+                    <img src={selectedNews.image} alt={selectedNews.title} className="w-auto md:pt-4  "  />
+                    
+                    
+                    
                 </div>
-            ) : (
+            ):(
                 <p>Loading news...</p>
             )}
-        </div>
+               <p>12 jam lalu</p>
+            </div>
+
+           
     );
 };
 
