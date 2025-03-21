@@ -27,28 +27,31 @@ const News = () => {
         <div >
             <Navbarnews />
           
-            {selectedNews ? (
+            {selectedNews ?.link ?(
                 <div className="grid md:grid-cols-2 container md:max-w-[1200px] mx-auto">
                 <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'16px'}} className='md:pt-4 md:max-w-[400px] text-justify mx-auto'>{selectedNews.content}</p>
                 
                
                 <div className="flex flex-col md:pt-4">
                     <img src={selectedNews.image} alt={selectedNews.title} className="w-auto" />
-                    <p className="mt-2 text-gray-600">12 jam lalu</p>
+                    <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'12px'}} className=" text-gray-600">12 jam lalu</p>
                 
             
-                <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'14px'}} className='cursor-pointer md:mt-1'
+                <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'12px'}} className='cursor-pointer '
                 > Sumber Dari : {selectedNews.link.map((url, index) => (
+                   <span key={index}>
                     <a 
-                    key={index}
+                    
                     href={url.trim().replace(/,$/, '')}
                     target="blank"
-                    rel = "noonpener noreferer"
-                    className= "hover:text-blue-500 "
+                    rel = "noopener noreferrer"
+                    className= "hover:text-blue-500 inline "
                     >
                     
                     {url.trim().replace(/,$/, '')}
+                    {index !== selectedNews.link.length && ". "}
                     </a>
+                    </span>
                 ))} 
 
                 </p>
