@@ -32,13 +32,13 @@ const News = () => {
                     <p className='md:pt-4 md:max-w-[400px] text-justify mx-auto'>{selectedNews.content}</p>
                     <img src={selectedNews.image} alt={selectedNews.title} className="w-auto md:pt-4  "  />
                     
-                    
-                    
                 </div>
             ):(
                 <p>Loading news...</p>
             )}
                <p>12 jam lalu</p>
+               <p>{} Sumber Dari : </p>
+
             </div>
 
            

@@ -10,6 +10,7 @@ db.news.insertMany([
     { id: "2", title: "Judul Berita 2", content: "Isi berita kedua...", image: "/images/mumbai.jpg" },
     { id: "3", title: "Judul Berita 3", content: "Isi berita ketiga...", image: "/images/mumbai.jpg" },
     { id: "4", title: "Judul Berita 4", content: "Isi berita keempat...", image: "/images/mumbai.jpg" }
+    {id: "link", title:"" , content:"https://www.facebook.com/marketplace/?ref=app_tab, https://ds4-windows.com/, https://www.lipsum.com/, https://aniwatchtv.to/, https://kuronime.pro/" , image:""}
 ]);
 
 // Konfirmasi data berhasil ditambahkan
