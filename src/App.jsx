@@ -4,6 +4,7 @@ import './assets/css/input.css';
 import Home from './Home';
 import Informasipopuler from './page/InformasiPopuler';
 import News from './content/News';
+import NotFound from './Notfound';
 
 
 const App = () => {
@@ -24,6 +25,9 @@ const App = () => {
 
         {/*News page*/}
         <Route path='/home/news/:id' element={<News />}/>
+
+        {/* Not found page */}
+        <Route path='*' element={<NotFound />} />
       </Routes>
    
   );
