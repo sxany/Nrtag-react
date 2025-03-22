@@ -5,7 +5,7 @@ const cors = require ('cors');
 const app = express();
 app.use(cors());
 
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://Yatta:<db_password>@mdatabase.xdbtk.mongodb.net/?retryWrites=true&w=majority&appName=MDatabase';
 const client = new MongoClient(uri);
 
 async function run() {
@@ -24,7 +24,7 @@ async function run() {
             res.json(news);
         });
 
-        app.listen(5000, () => console.log('Server berjalan di port 5000'));
+        app.listen(5000, () => console.log('Server berjalan di mongoDB atlas'));
 
     } catch (err) {
         console.error(err);

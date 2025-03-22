@@ -10,7 +10,6 @@
         const [news, setNews] = useState([]);
         const [selectedNews, setSelectedNews] = useState(null);
         
-
         useEffect(() => {
             fetch("http://localhost:5000/news/")
                 .then((res) => res.json())
@@ -18,7 +17,6 @@
                     const foundNews = data.find(item => item.id === id);
                     console.log("Fetched Data:", data);
                     if (!foundNews){
-                        
                         alert("Page not found!, Redirecting to Home");
                         navigate('/home');
                     }else {
@@ -29,6 +27,7 @@
                 })
                 .catch((err) => console.error("Error fetching news:", err));
         }, [id, navigate]);
+
         const openHome = () => {
             navigate('/home');
         };
@@ -39,25 +38,41 @@
             
                 {selectedNews ?(
                     <div className="grid md:grid-cols-2 container md:max-w-[1200px] mx-auto">
-                    <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'16px'}} className='md:pt-4 md:max-w-[400px] text-justify mx-auto'>{selectedNews.content} </p>
+                    <p style={{
+                        fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'16px'}} 
+                        className='md:pt-4 md:pr-3 text-justify '>
+                        {selectedNews.content} </p>
                     
                 
-                    <div className="flex flex-col md:pt-4">
-                        <img src={selectedNews.image} alt={selectedNews.title} className="w-auto" />
-                        <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'12px'}} className=" text-gray-600">12 jam lalu</p>
-                    
-                
-                    <p style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'12px'}} className='cursor-pointer '
-                    > Sumber Dari : {selectedNews.link.map((url, index) => (
-                    <span key={index}>
-                        <a 
+                    <div className="flex flex-col md:pt-4 ">
+                        <img 
+                        src={selectedNews.image} 
+                        alt={selectedNews.title} 
                         
+                        className="w-auto" />
+                        <p 
+                        style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', 
+                        fontStyle: 'normal', 
+                        fontSize:'12px'}}
+                        className=" text-gray-600">12 jam lalu</p>
+                    
+                
+                    <p style={{
+                        fontFamily: "Familjen Grotesk, serif", fontWeight: '300', 
+                        fontStyle: 'normal', 
+                        fontSize:'12px'}} 
+                        className='cursor-pointer '
+                    > Sumber Dari : 
+                    {selectedNews.link.map((url, index) => (
+                    
+                    <span 
+                    key={index}>
+                        <a                       
                         href={url.trim().replace(/,$/, '')}
                         target="blank"
                         rel = "noopener noreferrer"
                         className= "hover:text-blue-500 inline "
                         >
-                        
                         {url.trim().replace(/,$/, '')}
                         {index !== selectedNews.link.length && ". "}
                         </a>
