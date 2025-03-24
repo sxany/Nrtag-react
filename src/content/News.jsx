@@ -39,16 +39,30 @@
             
                 {selectedNews ?(
                     <div className="grid md:grid-cols-2 container md:max-w-[1200px] mx-auto">
-                    <p style={{
-                        fontFamily: "Familjen Grotesk, serif", 
-                        fontWeight: '300', 
-                        fontStyle: 'normal', fontSize:'16px',
-                        lineHeight: '22px'}} 
-                        className='md:pt-4 md:pr-3 text-justify'>
+                        {/*all konten */}
+                    <div>
+                        {/*title */}
+                        <div style={{
+                            fontFamily: "Familjen Grotesk, serif", 
+                            fontWeight: '500', 
+                            fontStyle: 'normal', 
+                            fontSize:'24px',
+                        }}>
                         {selectedNews.title} 
                         <br></br>
+                        </div>
+                        <div className='md:pt-4 md:pr-3 text-justify ' style={{
+                                fontFamily: "Familjen Grotesk, serif", 
+                                fontStyle: 'normal', 
+                                fontSize:'16px',
+                                lineHeight: '32px'        
+                        }}>
+
+                        {/*intro*/}
                         {selectedNews.intro}
-                        <br></br>
+                        <br></br>    
+
+                         {/*all heading and paragraph*/}
                         {selectedNews.heading1}
                         <br></br>
                         {selectedNews.paragraph1}
@@ -69,7 +83,9 @@
                         <br></br>
                         {selectedNews.paragraph5}
                         <br></br>
-                        </p>
+                        <p>{selectedNews.conclusion}</p>
+                        </div>
+                    </div>
                     
                 
                     <div className="flex flex-col md:pt-4 ">
