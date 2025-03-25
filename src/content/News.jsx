@@ -9,12 +9,20 @@
         const { id } = useParams();
         const [news, setNews] = useState([]);
         const [selectedNews, setSelectedNews] = useState(null);
+       //const [allNews, setAllNews] = useState([]);
+        
         
         useEffect(() => {
             fetch("http://localhost:5000/news/")
                 .then((res) => res.json())
                 .then((data) => {setNews(data);
+                    //setAllNews(data);
+                    //setRandomNews(data);
+
+                    //console log
                     console.log("Selectednews:", selectedNews);
+
+                    //error massage
                     const foundNews = data.find(item => item.id === id);
                     console.log("Fetched Data:", data);
                     if (!foundNews){
@@ -29,9 +37,19 @@
                 .catch((err) => console.error("Error fetching news:", err));
         }, [id, navigate]);
 
-        const openHome = () => {
-            navigate('/home');
-        };
+            //random news
+        /*const setRandomNews =(data) =>  {
+            if(data.length > 0){
+                const randomNews = Math.floor(Math.random() * data.length);
+                setNews(data[randomNews]);
+                
+        }
+    };*/
+            //open home
+                const openHome = () => {
+                navigate('/home');
+                };
+       
 
         return ( 
             <div >
@@ -60,30 +78,19 @@
 
                         {/*intro*/}
                         {selectedNews.intro}
-                        <br></br>    
-
-                         {/*all heading and paragraph*/}
-                        {selectedNews.heading1}
                         <br></br>
-                        {selectedNews.paragraph1}
-                        <br></br>
-                        {selectedNews.heading2}
-                        <br></br>
-                        {selectedNews.paragraph2}
-                        <br></br>
-                        {selectedNews.heading3}
-                        <br></br>
-                        {selectedNews.paragraph3}
-                        <br></br>
-                        {selectedNews.heading4}
-                        <br></br>
-                        {selectedNews.paragraph4}
-                        <br></br>
-                        {selectedNews.heading5}
-                        <br></br>
-                        {selectedNews.paragraph5}
-                        <br></br>
-                        <p>{selectedNews.conclusion}</p>
+                        
+                        {/*all heading and paragraph*/}
+                        {selectedNews.body.map((item) => (
+                        item.type === "heading" ? (
+                            <h key={item.id}>{item.content}</h>
+                        ): 
+                        (   
+                            <p key={item.id}>{item.content}</p>
+                        )
+                       
+                        
+                    ))}
                         </div>
                     </div>
                     
@@ -126,14 +133,21 @@
                     ))} 
                     
                     </p>
-                    
-                    <h style={{
-                        fontFamily: "Familjen Grotesk, serif",
+                    <div style={{
+                        fontFamily: "Familjen Grotesk, serif"
+                    }} 
+                        className="md:pt-2">
+
+                    <h className="cursor-pointer" 
+                    onClick={() => setRandomNews(allNews)}style={{
                         fontWeight: '500',
-                        fontSize: '14px',
-                        
-                    }} className="md:pt-2"
-                    >Lihat Juga:</h>
+                        fontSize: '14px'}}>Lihat Juga:</h>
+
+                    <p style={{
+                        fontWeight: '300',
+                        fontSize: '12px'
+                        }}>C </p>
+                    </div>
                     
                     </div>
                 </div>
