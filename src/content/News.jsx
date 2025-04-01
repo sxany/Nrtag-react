@@ -146,7 +146,7 @@
                     <p style={{
                         fontWeight: '300',
                         fontSize: '12px'
-                        }}>C </p>
+                        }}>test </p>
                     </div>
                     
                     </div>
