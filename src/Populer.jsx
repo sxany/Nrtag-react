@@ -50,7 +50,7 @@ const Populer = () => {
                                 </div>
 
                                 <div className='md:flex max-md:flex'>
-                                    <img src='/images/news/poster4.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px] '
+                                    <img src='/images/news/poster4.jpg'className='populer2 max-sm:w-[200px}  max-h-[167px] '
                                     ></img>
                                     <div className=' space-y-1 opacity-100 transition-opacity hover:opacity-50 '>
                                     <p onClick={() => openNews(4)} className='texthidden ml-2 text-black opacity-100 flex ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
