@@ -133,22 +133,34 @@
                     ))} 
                     
                     </p>
+                    {/*lihat juga */}
                     <div style={{
                         fontFamily: "Familjen Grotesk, serif"
                     }} 
                         className="md:pt-2">
 
                     <h className="cursor-pointer" 
-                    onClick={() => setRandomNews(allNews)}style={{
+                        onClick={() => setRandomNews(allNews)}style={{
                         fontWeight: '500',
                         fontSize: '14px'}}>Lihat Juga:</h>
+                    <div className='relative flex space-x-4'>
+                        
+                        <img src='/images/news/poster2.png' className='populer2 max-h-[150px]'>
+                        </img>
+                        
+                        <img src='/images/news/poster3.jpg'
+                        className='populer2 max-h-[150px]  '></img>
 
-                    <p style={{
+                        <img src='/images/news/poster4.jpg'
+                        className='populer2 max-h-[150px]  '></img>
+                
+                    <p className="cursor-pointer"
+                        style={{
                         fontWeight: '300',
                         fontSize: '12px'
                         }}>test </p>
                     </div>
-                    
+                    </div>
                     </div>
                 </div>
                 
