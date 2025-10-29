@@ -144,10 +144,17 @@
                         fontWeight: '500',
                         fontSize: '14px'}}>Lihat Juga:</h>
                     <div className='relative flex space-x-4'>
-                        
+                        <div>
                         <img src='/images/news/poster2.png' className='populer2 max-h-[150px]'>
                         </img>
-                        
+                        <p className="flex"
+                        style={{
+                            fontWeight: '300',
+                            fontSize: '12px'
+                        }}
+                        >Cantarella Hadir! Semua yang Perlu Kamu Tau tentang Update Wuthering Waves 2.2</p>
+                        </div>
+
                         <img src='/images/news/poster3.jpg'
                         className='populer2 max-h-[150px]  '></img>
 

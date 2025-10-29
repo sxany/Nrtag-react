@@ -26,7 +26,7 @@ const Populer = () => {
                                     <img  src='/images/news/poster1.jpg'className='populer2 max-sm:w-[200px}  max-h-[150px]  '
                                     ></img>
                                     <div onClick={() => openNews(1)} className=' space-y-1 opacity-100 transition-opacity hover:opacity-50'>
-                                    <p className='texthidden  ml-2   text-black opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                                    <p className='texthidden  ml-2   text-black opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Ingin Jago Bermain Valorant? Ini Dia 5 Tips Yang Kamu Harus Tau!</p>
                                     <p className='texthidden  ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                     </div>
@@ -35,7 +35,7 @@ const Populer = () => {
                                     <img src='/images/news/poster2.png'className='populer2 max-sm:w-[200px} max-h-[150px]'
                                     ></img>
                                     <div onClick={() => openNews(2)} className=' space-y-1 opacity-100 transition-opacity hover:opacity-50'>
-                                    <p className='texthidden  ml-2 text-black opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                                    <p className='texthidden  ml-2 text-black opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Cantarella Hadir! Semua yang Perlu Kamu Tau tentang Update Wuthering Waves 2.2</p>
                                     <p className='texthidden  ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                     </div>
@@ -44,7 +44,7 @@ const Populer = () => {
                                     <img src='/images/news/poster3.jpg'className='populer2 max-sm:w-[200px} max-h-[150px] '
                                     ></img>
                                     <div onClick={() => openNews(3)} className='space-y-1 opacity-100 transition-opacity hover:opacity-50'>
-                                    <p className='texthidden  ml-2 text-black   ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                                    <p className='texthidden  ml-2 text-black   ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Semua yang Perlu Kamu Tahu tentang Update Genshin Impact 5.5</p>
                                     <p className='texthidden  ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ const Populer = () => {
                                     <img src='/images/news/poster4.jpg'className='populer2 max-sm:w-[200px}  max-h-[167px] '
                                     ></img>
                                     <div className=' space-y-1 opacity-100 transition-opacity hover:opacity-50 '>
-                                    <p onClick={() => openNews(4)} className='texthidden ml-2 text-black opacity-100 flex ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu mollis leo, ac commodo ipsum. Nunc at sapien quis justo euismod ornare. Aliquam augue nulla, laoreet ut urna quis,</p>
+                                    <p onClick={() => openNews(4)} className='texthidden ml-2 text-black opacity-100 flex ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>Rockstar Games Umumkan Tanggal Rilis GTA 6: Siap Menggebrak Dunia Game di 2025</p>
                                     <p className='texthidden ml-2 text-[#706969] opacity-100 ' style={{fontFamily: "Familjen Grotesk, serif", fontWeight: '300', fontStyle: 'normal', fontSize:'11px'}}>12 jam lalu</p>
                                     </div>
                                 </div>
