@@ -14,7 +14,7 @@ const Populer = () => {
     
     };
     return (
-        <div className='md:hidde  '>
+        <div className='md:hidd  '>
             {/*kotak*/}
             <div className='populer max-md:mt-[100px] relative z-10 flex space-x-2 max-md:-ml-7 md:ml-6'>
                 <div className='kotak w-[34px] h-[13px] mt-4 ml-7'></div>
