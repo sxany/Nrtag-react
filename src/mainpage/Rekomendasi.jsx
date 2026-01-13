@@ -20,7 +20,7 @@ const Rekomendasi = () => {
             <div className='md:grid md:grid-cols-6 md:gap-x-4 max-md:space-y-2'>
                 {/** Poster 1 */}
                 <div className='ml-12 text-center max-md:mt-2'>
-                    <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="Black Myth Wukong" />
+                    <img src='../images/rekomendasi/black-myth-wukong-7680x4320-26231.jpg' className='md:w-[180px] md:h-[200px]' alt="Black Myth Wukong" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
                     >
@@ -35,7 +35,7 @@ const Rekomendasi = () => {
 
                 {/** Poster 2 */}
                 <div className='ml-12 mx-auto text-center'>
-                    <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="The Legend Of Zelda" />
+                    <img src='../images/rekomendasi/SI_WiiU_TheLegendOfZeldaTwilightPrincessHD_image1600w.jpg' className='md:w-[180px] md:h-[200px]' alt="The Legend Of Zelda" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
                     >
@@ -45,7 +45,7 @@ const Rekomendasi = () => {
 
                 {/** Poster 3 */}
                 <div className='ml-12 mx-auto text-center'>
-                    <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="Roblox" />
+                    <img src='../images/rekomendasi/roblox-3_63856060944913.2.jpg' className='md:w-[180px] md:h-[200px]' alt="Roblox" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
                     >
@@ -55,7 +55,7 @@ const Rekomendasi = () => {
 
                 {/** Poster 4 */}
                 <div className='ml-12 mx-auto text-center'>
-                    <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="Elden Ring" />
+                    <img src='../images/rekomendasi/elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x2160-7712.jpg' className='md:w-[180px] md:h-[200px]' alt="Elden Ring" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
                     >
@@ -65,7 +65,7 @@ const Rekomendasi = () => {
 
                 {/** Poster 5 */}
                 <div className='ml-12 mx-auto text-center'>
-                    <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="Red Dead Redemption 2" />
+                    <img src='../images/rekomendasi/red-dead-redemption-2-desktop-jbf0ia8tlq5lfvqz.jpg' className='md:w-[180px] md:h-[200px]' alt="Red Dead Redemption 2" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
                     >
@@ -76,7 +76,7 @@ const Rekomendasi = () => {
 
                  {/** Poster 6 */}
                  <div className='ml-12 text-center'>
-                    <img src='../images/mumbai.jpg' className='md:w-[180px] md:h-[200px]' alt="Red Dead Redemption 2" />
+                    <img src='../images/rekomendasi/rpKZcB.jpg' className='md:w-[180px] md:h-[200px]' alt="Red Dead Redemption 2" />
                     <p 
                         style={{ fontFamily: "Familjen Grotesk, serif", fontWeight: '500', fontStyle: 'normal', fontSize: '21px' }}
                     >

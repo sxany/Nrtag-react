@@ -8,7 +8,6 @@ app.use(express.json());
 
 const uri = "mongodb://Yatta:unapregunta12@mdatabase-shard-00-00.xdbtk.mongodb.net:27017,mdatabase-shard-00-01.xdbtk.mongodb.net:27017,mdatabase-shard-00-02.xdbtk.mongodb.net:27017/?replicaSet=atlas-1ifult-shard-0&ssl=true&authSource=admin";
 
-
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
